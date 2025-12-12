@@ -1,19 +1,23 @@
-# -------------------------------
+# =====================================================================
 # PYTHON BUILD / CACHE
-# -------------------------------
+# =====================================================================
 __pycache__/
 *.py[cod]
 *$py.class
-
-# Bytecode / cache
 *.pyo
 *.pyd
 *.pdb
-*.pkl
 
-# -------------------------------
+# Pickle and model artifacts (ignored globally)
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.h5
+
+# =====================================================================
 # ENVIRONMENTS
-# -------------------------------
+# =====================================================================
 .env
 .venv/
 env/
@@ -22,56 +26,43 @@ ENV/
 env.bak/
 venv.bak/
 
-# Conda environments
+# Conda environments (ALLOW workflow YAML!)
 *.conda
-*.yaml
+# *.yaml  <-- REMOVED because it blocked GitHub Actions
 
-# -------------------------------
+# =====================================================================
 # DATA & ARTIFACTS
-# -------------------------------
-# Raw + processed data (you can allow feature_data.csv if needed)
+# =====================================================================
 data/
+datasets/
 feature_store/
 synthetic_data/
-datasets/
+artifacts/
+models/
+src/**/models/
 
 # Logs
 *.log
 logs/
 
-# Model artifacts
-models/
-src/**/models/
-*.pt
-*.pth
-*.joblib
-*.pkl
-
-# If you want to keep light_model.pkl tracked, UNCOMMENT:
-# !src/synthetic_digital_biomarker/models/light_model.pkl
-
-# -------------------------------
+# =====================================================================
 # NOTEBOOK CHECKPOINTS
-# -------------------------------
+# =====================================================================
 .ipynb_checkpoints/
 *.ipynb~
+*.ipynb   # Ignore notebooks unless you want to track them
 
-# -------------------------------
-# EDITOR FILES
-# -------------------------------
-# VSCode
+# =====================================================================
+# EDITOR / PROJECT FILES
+# =====================================================================
 .vscode/
-
-# PyCharm
 .idea/
-
-# Cursor AI Editor
 .cursorignore
 .cursorindexingignore
 
-# -------------------------------
+# =====================================================================
 # PACKAGE / BUILD FILES
-# -------------------------------
+# =====================================================================
 build/
 dist/
 *.egg-info/
@@ -80,9 +71,9 @@ MANIFEST
 wheels/
 share/python-wheels/
 
-# -------------------------------
+# =====================================================================
 # TEST / COVERAGE
-# -------------------------------
+# =====================================================================
 .tox/
 .nox/
 .coverage
@@ -90,57 +81,47 @@ share/python-wheels/
 .pytest_cache/
 hypothesis/
 
-# -------------------------------
-# APPLICATION ARTIFACTS
-# -------------------------------
+# =====================================================================
+# APP ARTIFACTS
+# =====================================================================
 instance/
 webassets-cache/
 
-# -------------------------------
+# =====================================================================
 # DOCUMENTATION
-# -------------------------------
+# =====================================================================
 docs/_build/
 site/
 
-# -------------------------------
-# DIAGRAM OUTPUTS
-# keep images inside /assets/ but clean temp renders
-# -------------------------------
+# =====================================================================
+# DIAGRAMS & ASSETS
+# =====================================================================
 assets/diagrams/raw/
 assets/temp/
 *.svg
 *.pdf
 
-# Keep final PNG diagrams ✔️
+# Keep final PNG diagrams
 !assets/diagrams/*.png
 
-# -------------------------------
-# MISC
-# -------------------------------
+# =====================================================================
+# SYSTEM / MISC
+# =====================================================================
 .DS_Store
 Thumbs.db
-
-# Pip files that should be ignored
 pip-log.txt
 pip-delete-this-directory.txt
-
-# MyPy / Ruff
 .mypy_cache/
 .ruff_cache/
-
-# Pyre / Pytype
 .pyre/
 .pytype/
 
-# Large files to ignore
-*.png
-*.jpg
-*.jpeg
-*.h5
-*.pkl
-*.pt
-*.ipynb
-artifacts/
-data/
-models/
-
+# =====================================================================
+# FIX FOR GITHUB ACTIONS
+# DO NOT REMOVE
+# =====================================================================
+# Allow all workflow YAML files
+!.github/
+!.github/workflows/
+!.github/workflows/*.yaml
+!.github/workflows/*.yml
