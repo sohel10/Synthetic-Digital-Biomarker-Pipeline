@@ -131,10 +131,12 @@ Wearable-based risk profiling
 Your pipeline demonstrates end-to-end mastery of ML systems, from raw signal → features → models → deployment structure.
 
 # 🚀 9. How to Run the Project
+
 git clone https://github.com/sohel10/Synthetic-Digital-Biomarker-Pipeline
 cd Synthetic-Digital-Biomarker-Pipeline
 
 pip install -r requirements.txt
+
 python main.py
 
 # 🧰 10. Technologies Used
