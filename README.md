@@ -64,7 +64,8 @@ Synthetic-Digital-Biomarker-Pipeline/
 │   ├── mobility_features.csv
 │   └── cognition_features.csv
 │
-├── src/synthetic_digital_biomarker/
+├── src/
+│   └── synthetic_digital_biomarker/
 │        ├── generate_synthetic_data.py
 │        ├── preprocess.py
 │        ├── feature_engineering.py
