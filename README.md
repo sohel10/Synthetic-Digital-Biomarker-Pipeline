@@ -1,5 +1,5 @@
-🧠## Synthetic-Digital-Biomarker-Pipeline
-🧬# End-to-End Synthetic Digital Biomarker Pipeline (Wearables + Cognition + ML)
+## 🧠 Synthetic-Digital-Biomarker-Pipeline
+## 🧬 End-to-End Synthetic Digital Biomarker Pipeline (Wearables + Cognition + ML)
 
 This project simulates an end-to-end digital biomarker pipeline similar to Apple Watch mobility & cognition research.
 
@@ -9,10 +9,10 @@ Mobility biomarkers Cognition biomarkers Deep-learning inspired synthetic patter
 
 Multi-model analytics (Logistic Regression, XGBoost, PyTorch MLP)
 
-# A modular, production-style ML system designed for portfolio, interviews, and real-world pipelines.
+A modular, production-style ML system designed for portfolio, interviews, and real-world pipelines.
 
 <p align="center"> <img src="digital.png" width="90%" alt="Synthetic Digital Biomarker Pipeline Banner"> </p>
-🔍 #2. What This Pipeline Includes
+# 🔍 2. What This Pipeline Includes
 ✔ Synthetic Data Generation
 
 Mobility + cognition biomarkers (step stability, gait variability, reaction time, memory tests)
@@ -43,13 +43,13 @@ Logistic Regression XGBoost PyTorch MLP (GPU accelerated)
 
 Clean, extensible, interview-ready design.
 
-🧠# 3. Model Outputs (Example Visuals)
+#🧠 3. Model Outputs (Example Visuals)
 📊 Random Prediction Example
 
 (Optional — once your model outputs a prediction grid, add it here)
 
 <p align="center"> <img src="prediction_example.png" width="85%" alt="Prediction Grid Example"> </p>
-🔥# 4. Model Architecture: PyTorch MLP (GPU-Accelerated)
+#🔥 4. Model Architecture: PyTorch MLP (GPU-Accelerated)
 
 The deep learning model includes:
 
@@ -57,7 +57,7 @@ Input normalization Two hidden layers ReLU activation Dropout regularization CUD
 
 # Used for risk prediction and biomarker classification tasks.
 
-📂# 5. Project Structure (Clean Markdown Tree)
+#📂 5. Project Structure (Clean Markdown Tree)
 Synthetic-Digital-Biomarker-Pipeline/
 │
 ├── config/
@@ -145,14 +145,14 @@ Wearable-based risk profiling
 
 Your pipeline demonstrates end-to-end mastery of ML systems, from raw signal → features → models → deployment structure.
 
-🚀# 9. How to Run the Project
+# 🚀 9. How to Run the Project
 git clone https://github.com/sohel10/Synthetic-Digital-Biomarker-Pipeline
 cd Synthetic-Digital-Biomarker-Pipeline
 
 pip install -r requirements.txt
 python main.py
 
-🧰# 10. Technologies Used
+#🧰 10. Technologies Used
 
 Python 3.10
 
@@ -168,7 +168,7 @@ torch (GPU accelerated)
 
 pyyaml
 
-📦# 11. Deployment (Optional AWS CI/CD)
+#📦 11. Deployment (Optional AWS CI/CD)
 
 Same structure as your kidney project:
 
