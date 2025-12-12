@@ -12,7 +12,7 @@ Multi-model analytics (Logistic Regression, XGBoost, PyTorch MLP)
 A modular, production-style ML system designed for portfolio, interviews, and real-world pipelines.
 
 <p align="center"> <img src="digital.png" width="90%" alt="Synthetic Digital Biomarker Pipeline Banner"> </p>
-#   2. What This Pipeline Includes
+#  2 What This Pipeline Includes
 ✔ Synthetic Data Generation
 
 Mobility + cognition biomarkers (step stability, gait variability, reaction time, memory tests)
