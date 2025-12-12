@@ -43,13 +43,13 @@ Logistic Regression XGBoost PyTorch MLP (GPU accelerated)
 
 Clean, extensible, interview-ready design.
 
-#🧠 3. Model Outputs (Example Visuals)
+# 🧠 3. Model Outputs (Example Visuals)
 📊 Random Prediction Example
 
 (Optional — once your model outputs a prediction grid, add it here)
 
 <p align="center"> <img src="prediction_example.png" width="85%" alt="Prediction Grid Example"> </p>
-#🔥 4. Model Architecture: PyTorch MLP (GPU-Accelerated)
+# 🔥 4. Model Architecture: PyTorch MLP (GPU-Accelerated)
 
 The deep learning model includes:
 
@@ -57,7 +57,7 @@ Input normalization Two hidden layers ReLU activation Dropout regularization CUD
 
 # Used for risk prediction and biomarker classification tasks.
 
-#📂 5. Project Structure (Clean Markdown Tree)
+# 📂 5. Project Structure (Clean Markdown Tree)
 Synthetic-Digital-Biomarker-Pipeline/
 │
 ├── config/
@@ -105,7 +105,7 @@ PyTorch MLP	~0.75
 
 Includes GPU support via CUDA.
 
-#🧪 7. Training + Pipeline Workflow (MLOps Overview)
+# 🧪 7. Training + Pipeline Workflow (MLOps Overview)
 
 The entire project follows a production-grade ML workflow:
 
@@ -129,7 +129,7 @@ Raw → processed → feature store
 
 Supports GitHub Actions, Docker, AWS EC2/ECR deployment.
 
-#🧠 8. Why This Pipeline Matters
+# 🧠 8. Why This Pipeline Matters
 
 Digital biomarkers enable:
 
@@ -152,7 +152,7 @@ cd Synthetic-Digital-Biomarker-Pipeline
 pip install -r requirements.txt
 python main.py
 
-#🧰 10. Technologies Used
+# 🧰 10. Technologies Used
 
 Python 3.10
 
@@ -168,7 +168,7 @@ torch (GPU accelerated)
 
 pyyaml
 
-#📦 11. Deployment (Optional AWS CI/CD)
+# 📦 11. Deployment (Optional AWS CI/CD)
 
 Same structure as your kidney project:
 
@@ -184,6 +184,6 @@ Configure GitHub Actions → self-hosted runner
 
 Launch model API
 
-📜# License
+# 📜 License
 
 MIT License.
