@@ -13,29 +13,18 @@ A modular, production-style ML system designed for portfolio, interviews, and re
 
 <p align="center"> <img src="digital.png" width="90%" alt="Synthetic Digital Biomarker Pipeline Banner"> </p>
 #  2 What This Pipeline Includes
-✔ Synthetic Data Generation
 
-Mobility + cognition biomarkers (step stability, gait variability, reaction time, memory tests)
+✔ Synthetic Data Generation Mobility + cognition biomarkers (step stability, gait variability, reaction time, memory tests)
 
-✔ Data Preprocessing
+✔ Data Preprocessing Cleaning Scaling Noise modeling Outlier correction
 
-Cleaning Scaling Noise modeling Outlier correction
-
-Variability features
-Temporal aggregations
-Interaction features
+Variability featuresT emporal aggregationsInteraction features
 
 ✔ SQL-Style QC
 
-Missingness checks
-Range validation
-Consistency rules
+Missingness checks Range validation  Consistency rules
 
-✔ Feature Store
-
-Production-style tables for ML ingestion
-
-✔ Machine Learning Models
+✔ Feature Store Production-style tables for ML ingestion ✔ Machine Learning Models
 
 Logistic Regression XGBoost PyTorch MLP (GPU accelerated)
 
