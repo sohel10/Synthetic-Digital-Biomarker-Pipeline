@@ -131,3 +131,16 @@ pip-delete-this-directory.txt
 # Pyre / Pytype
 .pyre/
 .pytype/
+
+# Large files to ignore
+*.png
+*.jpg
+*.jpeg
+*.h5
+*.pkl
+*.pt
+*.ipynb
+artifacts/
+data/
+models/
+
