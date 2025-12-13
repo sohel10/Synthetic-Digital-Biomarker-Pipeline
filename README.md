@@ -1,7 +1,7 @@
 ## 🧠 Synthetic-Digital-Biomarker-Pipeline
 ## 🧬 End-to-End Synthetic Digital Biomarker Pipeline (Wearables + Cognition + ML)
 
-This project simulates an end-to-end digital biomarker pipeline similar to Apple Watch mobility & cognition research.
+This project simulates an end-to-end digital biomarker pipeline similar to Smart Watch mobility & cognition research.
 
 It generates synthetic wearable data, cleans it, engineers features, performs QC, builds a feature store, and trains ML models:
 
